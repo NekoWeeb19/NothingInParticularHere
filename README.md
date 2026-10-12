@@ -25,7 +25,7 @@ Start with [docs/setup.md](docs/setup.md). It is written for first-time users an
 The very short setup is:
 
 ```powershell
-git clone --recurse-submodules https://github.com/NekoWeeb19/NothingInParticularHere/RevivalSide.git RevivalSide
+git clone --recurse-submodules https://github.com/NekoWeeb19/NothingInParticularHere.git RevivalSide
 cd RevivalSide
 if (!(Test-Path .env)) { Copy-Item .env.example .env }
 npm install
